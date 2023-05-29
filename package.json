@@ -1,13 +1,17 @@
 {
   "name": "mp-ci",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "小程序ci工具",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
     "prepare": "husky install",
     "build": "npx rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release:major": "standard-version -r major",
+    "release:minor": "standard-version -r minor",
+    "release:patch": "standard-version -r patch",
+    "publish": ""
   },
   "keywords": [
     "mini-program",
