@@ -8,13 +8,13 @@ export default class mpCi {
     }
 
     init() {
-        this.project = new ci.Project({...this.options.config()})
+        this.project = new ci.Project({...this.options.config})
         const baseConfig = () => ({
             project: this.project,
-            version: this.options.baseConfig().version || utils.getVersion(),
-            desc: this.options.baseConfig().desc,
-            robot: this.options.baseConfig().desc.robot || 30,
-            setting: this.options.baseConfig().setting ?? {
+            version: this.options.baseConfig.version || utils.getVersion(),
+            desc: this.options.baseConfig.desc,
+            robot: this.options.baseConfig.desc.robot || 30,
+            setting: this.options.baseConfig.setting ?? {
                 es6: true,
                 es7: true,
             },
