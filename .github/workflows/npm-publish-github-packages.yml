@@ -20,11 +20,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
       - name: install
-          run: pnpm install
+        run: pnpm install
       - name: build
-          run: pnpm run build
+        run: pnpm run build
       - name: publish
-          run: npm publish
+        run: npm publish
           env:
             NPM_TOKEN: ${{ secrets.MPCI_NPM_TOKEN }}
 
