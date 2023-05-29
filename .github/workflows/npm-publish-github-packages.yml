@@ -24,8 +24,9 @@ jobs:
       - name: build
         run: pnpm run build
       - name: publish
-        run: npm publish && echo ${{ secrets.MPCI_NPM_TOKEN }}
-        env:
+        run:
+        npm publish
+        env :
           NODE_AUTH_TOKEN: ${{ secrets.MPCI_NPM_TOKEN }}
 
 #  publish:

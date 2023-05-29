@@ -1,6 +1,4 @@
-const ci = require('miniprogram-ci')
-const utils = require('./utils')
-
+import ci from 'miniprogram-ci'
 export default class mpCi {
     constructor(options) {
         this.options = options
@@ -9,9 +7,10 @@ export default class mpCi {
 
     init() {
         this.project = new ci.Project({...this.options.config})
+        console.log(this.project,66666)
         const baseConfig = () => ({
             project: this.project,
-            version: this.options.baseConfig.version || utils.getVersion(),
+            version: this.options.baseConfig.version,
             desc: this.options.baseConfig.desc,
             robot: this.options.baseConfig.desc.robot || 30,
             setting: this.options.baseConfig.setting ?? {
