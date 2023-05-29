@@ -13,6 +13,9 @@
     "release:patch": "standard-version -r patch",
     "publish": ""
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "files": ["dist/*"],
   "keywords": [
     "mini-program",

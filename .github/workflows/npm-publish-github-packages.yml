@@ -26,7 +26,7 @@ jobs:
       - name: publish
         run: npm publish
         env:
-          NPM_TOKEN: ${{ secrets.MPCI_NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.MPCI_NPM_TOKEN }}
 
 #  publish:
 #    needs: build
