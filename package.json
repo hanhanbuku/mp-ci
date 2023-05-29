@@ -1,5 +1,5 @@
 {
-  "name": "mp-ci",
+  "name": "@wangyuhan329/mp-ci",
   "version": "1.0.1",
   "description": "小程序ci工具",
   "main": "dist/index.js",
