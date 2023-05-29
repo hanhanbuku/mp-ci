@@ -13,6 +13,7 @@
     "release:patch": "standard-version -r patch",
     "publish": ""
   },
+  "files": ["dist/*"],
   "keywords": [
     "mini-program",
     "mp-cli"
