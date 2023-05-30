@@ -35,7 +35,7 @@ run({
 ```
 - 添加运行命令
 ```json
-//在package.json中
+//在package.json中,等构建完毕之后执行此命令即可自动上传
   "scripts": {
     "mp-ci": "node xxx.js"
   },
@@ -56,3 +56,11 @@ run({
 | keyType     | 密钥类型 file/raw                                                               | string   | file                  | 否   |
 
 
+### baseConfig
+
+| 参数        | 描述           | 类型                | 默认值                 | 必填 |
+| ----------- |--------------|-------------------|---------------------| ---- |
+| version       | 小程序 版本号      | string            | /                   | 是   |
+| desc | 版本描述         | string            | /                   | 是   |
+| robot        | 机器人号   | string            | 30                  | 否   |
+| setting     |         | {es6:boolen,es7:boolen} | {es6:true,es7:true} | 否   |
