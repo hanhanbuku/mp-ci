@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/hanhanbuku/mp-ci/compare/v1.0.3...v1.0.4) (2023-05-30)
+
+
+### Features
+
+* 补充文档 ([e36e1fe](https://github.com/hanhanbuku/mp-ci/commit/e36e1fe31747614bc1c2b71a97b147bb7a1ccf10))
+* 补充文档 ([777787a](https://github.com/hanhanbuku/mp-ci/commit/777787a2327a74c3aabae05ae828bfd175cb1004))
+* 修改构建 ([ef984b8](https://github.com/hanhanbuku/mp-ci/commit/ef984b898d248ff22dbb49903bf5767c8578f209))
+* 修改构建 ([dd553d0](https://github.com/hanhanbuku/mp-ci/commit/dd553d004c983c88c05b63123e5b6cdb64c84028))
+
 ### [1.0.3](https://github.com/hanhanbuku/mp-ci/compare/v1.0.2...v1.0.3) (2023-05-29)
 
 ### [1.0.2](https://github.com/hanhanbuku/mp-ci/compare/v1.0.1...v1.0.2) (2023-05-29)
