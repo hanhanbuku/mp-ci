@@ -7,7 +7,6 @@ export default class mpCi {
 
     init() {
         this.project = new ci.Project({...this.options.config})
-        console.log(this.project,66666)
         const baseConfig = () => ({
             project: this.project,
             version: this.options.baseConfig.version,
